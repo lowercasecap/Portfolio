@@ -1,0 +1,358 @@
+nav{
+    
+    text-align: left;
+    text-decoration: none;
+    padding: 1%;
+    position: sticky;
+    top:0px;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    position: sticky;
+    
+    
+}
+
+nav ul li{
+    float: right;
+    font-size: small;
+    position: sticky;
+    
+}
+
+nav li a{
+    color: white;
+    display: block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    font-size: 1.5em;
+    position: sticky;
+    border-radius: 5px;
+    
+}
+
+body{
+    /*background-color: rgb(202, 190, 190);*/
+    background-color: rgb(26, 108, 166);
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+    background-size: 100px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+footer li a{
+    color: white;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+p{
+    color: white;
+    font-size: 6em;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+h4{
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+section{
+    margin-bottom: 22px;
+    margin-top: 0;
+}
+
+
+button{
+    position: sticky;
+}
+
+/*Courses*/
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    border: white 1px solid;
+    background-color: gray;
+    border-radius: 25px;
+    border-color: white;
+    
+}
+
+#projects{
+    border-radius: 25px;
+    margin: auto;
+}
+
+
+
+#education{
+    background-color: black;
+    margin:auto;
+    border: white 1px solid;
+    border-radius: 25px;
+    border-color:white;
+    
+}
+
+label{
+    color: white;
+}
+
+
+/* Photo gallery*/
+
+
+
+.grid {
+    width: 75%;
+    height: 55%;
+    cursor: pointer;
+    background-size: 23%;
+    
+}
+
+footer li a{
+    color: white;
+}
+footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+form #submit{
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em;
+    border-radius: 10px;
+}
+#form{
+    margin-top: 2%;
+    background-color: rgb(26, 108, 166);
+    padding: 2%;
+}
+
+#form h2{
+    text-align: center;
+}
+
+/*Style rule for form elements*/
+fieldset, input, select, textarea{
+    margin-bottom: 2%;
+}
+
+fieldset legend{
+    font-weight: bold;
+    font-size: 1.25em;
+}
+/*color around contact border*/
+fieldset{
+    border-color: white;
+    background-color: rgb(20, 87, 134);
+}
+
+label{
+    display: block;
+    padding-top: 3%;
+}
+
+/* displays the form grid side by side*/
+.form-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+#project1, #project2, #project3, #project4{
+    margin: 0 2%;
+    width: 29%;
+    float: left;
+}
+
+legend{
+    color: white;
+}
+
+
+
+/*Submit button*/
+.btn{
+    display: inline;
+    background-color: #c2f0fb;
+    border-radius: 100px;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+    color: rgb(118, 125, 131);
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    position: sticky;
+
+}
+.btn:hover{
+    box-shadow: rgba(48, 200, 200, 0.35) 0 -25px 18px -14px inset,rgba(48, 200, 200, 0.35) 0 1px 2px,rgba(48, 200, 200, 0.35) 0 2px 4px,rgba(48, 200, 200, 0.35) 0 4px 8px,rgba(48, 200, 200, 0.35) 0 8px 16px,rgba(48, 200, 200, 0.35) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
+    text-decoration: none;
+    
+}
+
+nav li a:hover{
+    color: rgb(114, 167, 174);
+    background-color: #fff;
+    transform: scale(1.3);
+}
+
+
+
+
+
+
+
+
+
+/*Media query for desktop viewport*/
+@media screen and (min-width: 1015px), print{
+
+
+
+    .frame{
+        position: relative;
+        max-width: 450px;
+        margin: 2% auto;
+        opacity: 0.9;
+    }
+
+    /*Displays project pictures */
+    .grid{
+        text-align: center;
+        margin: auto;
+        max-width: 50%;
+    }
+
+   
+
+
+
+
+    .pic-text{
+        font-size: 1.5em;
+        padding: 10px;
+    
+    }
+
+    .project{
+        max-width: 100%;
+        margin: 1% auto;
+        opacity: 0.9;
+    }
+
+    .info{
+        text-align: left;
+        padding: 1%;
+        color: #fff;
+        list-style: none;
+    }
+
+    .about{
+        max-width: 20%;
+        display: block;
+    }
+
+    .about{
+        max-width: 30%;
+        
+    }
+
+    footer li a{
+        color: white;
+    }
+    footer ul li{
+        text-decoration: none;
+        list-style-type: none;
+        display: inline;
+        text-align: center;
+    }
+
+}
+
+/*Media query for tablet viewport*/
+@media screen and (min-width: 630px), print{
+
+    /*Links at the top of the page*/
+    #social li a{
+        font-size: large;
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    #social li{
+        list-style: none;
+        list-style-type: none;
+    }
+
+   
+
+   
+
+    .frame{
+        position: relative;
+        max-width: 450px;
+        margin: 2% auto;
+        opacity: 0.9;
+    }
+
+    .grid{
+        display: grid;
+        margin: auto;
+    }
+
+    footer li a{
+        color: white;
+    }
+    footer ul li{
+        text-decoration: none;
+        list-style-type: none;
+        display: inline;
+        text-align: center;
+    }
+
+}
