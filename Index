@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e79bf04c9a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <!--Picture goes here-->
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <button class="resume-button"><a href="Resume.docx">Resume</a></button>
+        <button class ="cover-letter-button"> <a href="Cover Letter.docx">Cover Letter</a></button>
+    </nav>
+    
+    
+    
+    <!-- HTML !-->
+    <main>
+        <a id="about">
+            <p>About</p>
+        </a>
+        <section>
+            <h3>hi, my name is Ryan, and I am a Software Engineer.</h3>
+        </section>
+
+
+        
+
+        
+        <a id="projects">
+            <p>Projects</p>
+        </a>
+        <section id="projects">
+            <section id="project1">
+                <h3>Fantasy football</h3>
+                <a href="https://github.com/lowercasecap/FantasyFootball"><img src="images/fantasy.jpg"  class="round"></a>
+                <h3>Here is the Description.</h3>
+                
+                
+            </section>
+            <section id="project2">
+                <h3>Vacation Finder</h3>
+                <a href="https://github.com/lowercasecap/Vacation-Finder"><img src="images\Pending Review.jpg"  class="round"></a>
+                <h3>Here is the description</h3>
+    
+            </section>
+            <section id="project3">
+                <h3>AR project</h3>
+                <a href="https://github.com/lowercasecap/FantasyFootball"><img src="images\Pending Review.jpg"  class="round"></a>
+                <h3>Here is the Description</h3>
+            </section>
+        </section>
+
+        <a id="research">
+            <p>Research</p>
+        </a>
+        <section id="research">
+            <h3>Research section</h3>
+        </section>
+
+
+
+
+
+
+
+
+        
+
+
+        <br>
+        <br>
+
+        <a id="education">
+            <p>Education</p>
+        </a>
+        <section>
+            <h4>Dakota state University</h4>
+            <div id="education">
+                
+                <h3>Computer Science - Software Engineering: May 2023 - May 2025 (BS) </h3>
+            </div>
+            <h4>North Dakota State College of science</h4>
+            <div id="education">
+                
+                <h3>Software Engineering: August 2022 - May 2024(AAS)(Honors)</h3>
+                <h3>Paramedic Technology: August 2016 - September 2017 (Cert)(Honors)</h3>
+            </div>
+        
+        </section>
+
+        
+
+        
+        
+        <br>
+        <a id="courses">
+            <p>Courses</p>
+        </a>
+        <section>
+            <h4>Here is a list of some computer science courses I have taken.</h4>
+            <h3>Dakota state University</h3>
+            <div class="grid1">
+                
+                <h2>CSC 300: Data structures</h2>
+                <h2>CSC 310: Advanced Data Structures</h2>
+                <h2>CSC 285: Networking 1</h2>
+            </div>
+            <h3>North Dakota state College of Science</h3>
+            <div class="grid1">
+                
+                <h2>CSCI 134: Database Design and management</h2>
+                <h2>CSCI 230/231: Web Database 1 & 2(ASP/PHP)</h2>
+                <H2>CSCI 160/161: Computer science 1, 2, & 3(Java)</H2>
+            </div>
+            
+
+        </section>
+        <a id="contact">
+            <p>Contact</p>
+        </a>
+        <section>
+            <div id="form">
+                <h2>Complete the form below to contact me about collaberation</h2>
+    
+                <form class="form-grid" method="post" action="mailto:ryan.werness@gmail.com" ><!--Start form-->
+    
+                    <fieldset>
+                        <legend>Form information:</legend>
+                        <label for="fName">First Name</label>
+                        <input type="text" id="fName" required>
+    
+                        <label for="lName">Last Name:</label>
+                        <input type="text" id="lName" required>
+    
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" required>
+    
+                        <label for="phone">Phone:</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Referal Source</legend>
+
+                        <label for="reference">How did you find me?</label>
+
+                        <select name="reference" id="reference">
+                            <option value="ad">LinkedIn</option>
+                            <option value="friend">Referal</option>
+                            <option value="google">Google</option>
+                            <option value="social">Social Media</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                        <label for="questions">Inquiry</label> 
+                        <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                    </fieldset>
+
+                    
+                </form>
+                <input type="submit" id="submit" value="submit"  class="btn">
+                    
+            </div>
+
+        </section>
+       
+
+    </main>
+</body>
+<footer>
+    <ul>
+        <li><a href="https://github.com/lowercasecap" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ryan-werness-7438b618b/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+    </ul>
+        
+    
+</footer>
+</html>
