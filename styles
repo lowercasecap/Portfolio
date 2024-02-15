@@ -1,3 +1,20 @@
+.img{
+    width:100px;
+    height:100px;
+ 
+ /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+     object-fit:scale-down;
+ 
+ }
+
+ #mugshot img{
+    width: 200px;
+    height: 200px;
+ }
+
+
+
+
 nav{
     
     text-align: left;
@@ -38,6 +55,8 @@ nav li a{
 body{
     /*background-color: rgb(202, 190, 190);*/
     background-color: rgb(26, 108, 166);
+    
+    
 }
 
 
@@ -86,6 +105,7 @@ h2{
 section{
     margin-bottom: 22px;
     margin-top: 0;
+    
 }
 
 
@@ -145,6 +165,7 @@ footer ul li{
     list-style-type: none;
     display: inline;
     text-align: center;
+    margin: 5px;
 }
 form #submit{
     margin: 0 auto;
@@ -177,7 +198,11 @@ fieldset legend{
 /*color around contact border*/
 fieldset{
     border-color: white;
-    background-color: rgb(20, 87, 134);
+    background-image: linear-gradient(to right, rgb(26, 108, 166), rgb(17, 85, 134));
+    flex: 1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px; 
 }
 
 label{
@@ -187,20 +212,38 @@ label{
 
 /* displays the form grid side by side*/
 .form-grid{
-    display: grid;
+    display:flex;
     grid-template-columns: auto auto;
     grid-gap: 20px;
+    width: 100%;
+    margin: 0 auto;
 }
 
-#project1, #project2, #project3, #project4{
-    margin: 0 2%;
+#project1, #project2, #project3{
+    display: inline-block;
     width: 29%;
-    float: left;
+    margin: 2%;
+    background-image: linear-gradient(to right, rgb(26, 108, 166), rgb(17, 85, 134));
+}
+#project1:hover, #project2:hover, #project3:hover{
+    opacity: 1;
+    box-shadow: 8px 8px 10px white;
+    transform: translateY(10px);
+    background-color: rgb(17, 85, 134);
 }
 
 legend{
     color: white;
+    text-align: center;
 }
+p{
+    text-shadow: 2px 2px rgb(90, 89, 89);
+}
+
+#form{
+    background-image: linear-gradient(to right, rgb(26, 108, 166), rgb(17, 85, 134));
+}
+
 
 
 
@@ -356,3 +399,11 @@ nav li a:hover{
     }
 
 }
+
+
+
+
+
+
+
+
