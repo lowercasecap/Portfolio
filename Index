@@ -10,6 +10,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e79bf04c9a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    
 
 </head>
 
@@ -20,25 +25,27 @@
     <nav>
         <ul>
             <li><a href="#contact">Contact</a></li>
-            <li><a href="#courses">Courses</a></li>
+            <li><a href="#other">Other</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#research">Research</a></li>
             <li><a href="#about">About</a></li>
         </ul>
-        <button class="resume-button"><a href="Resume.docx">Resume</a></button>
-        <button class ="cover-letter-button"> <a href="Cover Letter.docx">Cover Letter</a></button>
     </nav>
     
     
     
     <!-- HTML !-->
     <main>
+        <div id="mugshot"><img src="images/Me.jpg"></a></div>
         <a id="about">
             <p>About</p>
         </a>
         <section>
-            <h3>hi, my name is Ryan, and I am a Software Engineer.</h3>
+            <h2>Hi, my name is Ryan, and I am a Software Engineer. This is my portfolio which showcase my eduaction, projects, and skills.</h2>
+            <h2>I currently am working on Augmented and Mixed reality apllications in my free time.</h2>
+            <h2>I also enjoy competitive programming and doing Leetcode style prolems.</h2>
+            <h2>If you would like reach out to me please you contact form bellow!</h2>
         </section>
 
 
@@ -52,20 +59,23 @@
             <section id="project1">
                 <h3>Fantasy football</h3>
                 <a href="https://github.com/lowercasecap/FantasyFootball"><img src="images/fantasy.jpg"  class="round"></a>
-                <h3>Here is the Description.</h3>
+                <h3>This application adds more depth into your fantasy selections.</h3>
+                <h3>To view and use this application click on the picture above.</h3>
                 
                 
             </section>
             <section id="project2">
-                <h3>Vacation Finder</h3>
-                <a href="https://github.com/lowercasecap/Vacation-Finder"><img src="images\Pending Review.jpg"  class="round"></a>
-                <h3>Here is the description</h3>
+                <h3>AR Resume</h3>
+                <a href="https://github.com/lowercasecap/Vacation-Finder"><img src="images\ArResume.png"  class="round"></a>
+                <h3>This project uses Agmented reality principles to display my resume.</h3>
+                <h3>To view and use this application click on the picture above.</h3>
     
             </section>
             <section id="project3">
-                <h3>AR project</h3>
+                <h3>Vaction Finder</h3>
                 <a href="https://github.com/lowercasecap/FantasyFootball"><img src="images\Pending Review.jpg"  class="round"></a>
-                <h3>Here is the Description</h3>
+                <h3>This apllication scrapes web applications to find deals on vacations.</h3>
+                <h3>To view and use this application click on the picture above.</h3>
             </section>
         </section>
 
@@ -73,37 +83,38 @@
             <p>Research</p>
         </a>
         <section id="research">
-            <h3>Research section</h3>
+            <form class="form-grid">
+                <fieldset>
+                    <h3>Before my dive into Software Development I was a Senior Biochemistry student who was involved in multiple research endevors.</h3>
+                    <h3>This research involved Biochemistry and Organic chemistry research.</h3>
+                    <h3>Most notably I created a an inorganic compound which was used clinical trials in one of the nations leading medical research facilities.</h3>
+                    <h3>Furthurmore research into epidermal bacterial phages Propionibacterium was done. In which me and my team found a new subset of phages that could potentially used for skin treatments.</h3>
+                    <h3>If you would like research collabertion in Biochemistry, Organic Chemistry, or Computer Science Topics feel free to contact me bellow.</h3>
+
+                </fieldset>
+            </form>
+            
         </section>
 
-
-
-
-
-
-
-
-        
-
-
-        <br>
-        <br>
 
         <a id="education">
             <p>Education</p>
         </a>
+        <h3>I am currently enrolled in two online universities completing both a Associates and Bachelors in Software Engineering and Computer Science respectivly.</h3>
         <section>
-            <h4>Dakota state University</h4>
-            <div id="education">
+            <form class="form-grid">
                 
-                <h3>Computer Science - Software Engineering: May 2023 - May 2025 (BS) </h3>
-            </div>
-            <h4>North Dakota State College of science</h4>
-            <div id="education">
-                
-                <h3>Software Engineering: August 2022 - May 2024(AAS)(Honors)</h3>
-                <h3>Paramedic Technology: August 2016 - September 2017 (Cert)(Honors)</h3>
-            </div>
+                <fieldset>
+                    <legend>Dakota state University</legend>
+                    <h3>Computer Science - Software Engineering: May 2023 - May 2025 (BS) </h3>
+
+                </fieldset>
+                <fieldset>
+                    <legend>North Dakota State College of science</legend>
+                    <h3>Software Engineering: August 2022 - May 2024(AAS)(Honors)</h3>
+                    <h3>Paramedic Technology: August 2016 - September 2017 (Cert)(Honors)</h3>
+                </fieldset>
+            </form>
         
         </section>
 
@@ -112,25 +123,25 @@
         
         
         <br>
-        <a id="courses">
-            <p>Courses</p>
+        <a id="other">
+            <p>Other</p>
+            <h4>Here is a list of some of my personal and academic acheivements.</h4>
         </a>
         <section>
-            <h4>Here is a list of some computer science courses I have taken.</h4>
-            <h3>Dakota state University</h3>
-            <div class="grid1">
-                
-                <h2>CSC 300: Data structures</h2>
-                <h2>CSC 310: Advanced Data Structures</h2>
-                <h2>CSC 285: Networking 1</h2>
-            </div>
-            <h3>North Dakota state College of Science</h3>
-            <div class="grid1">
-                
-                <h2>CSCI 134: Database Design and management</h2>
-                <h2>CSCI 230/231: Web Database 1 & 2(ASP/PHP)</h2>
-                <H2>CSCI 160/161: Computer science 1, 2, & 3(Java)</H2>
-            </div>
+            <form class="form-grid">
+                <fieldset>
+                    <legend>Volunteer</legend>
+                    <h2>During the COVID 19 pandemic I volunteered at a rural ambulance service 20 minutes outside of Fargo, ND.</h2>
+                    <h2>During that 1 1/2 years I volunteered over 4800 +hours as a Paramedic.</h2>
+                    <h2>I still volunteer at Casselton ambulance and am currently volunteering fulltime.</h2>
+                </fieldset>
+                <fieldset>
+                    <legend>Academic</legend>
+                    <h2>I am currently a member of the Phi Theta Kappa International Honor Society.</h2>
+                    <h2>In 2017 I graduated with a certificate in paramedicine with honors.</h2>
+                    <h2>I currently hold a 4.0 for my assocaiates in Software Engineering and a 3.76 overall GPA.</h2>
+                </fieldset>
+            </form>
             
 
         </section>
@@ -145,16 +156,16 @@
     
                     <fieldset>
                         <legend>Form information:</legend>
-                        <label for="fName">First Name</label>
+                        <label for="fName">*First Name:</label>
                         <input type="text" id="fName" required>
     
-                        <label for="lName">Last Name:</label>
+                        <label for="lName">*Last Name:</label>
                         <input type="text" id="lName" required>
     
-                        <label for="email">Email:</label>
+                        <label for="email">*Email:</label>
                         <input type="text" name="email" id="email" required>
     
-                        <label for="phone">Phone:</label>
+                        <label for="phone">*Phone:</label>
                         <input type="tel" name="phone" id="phone" required>
                     </fieldset>
                     <fieldset>
@@ -171,12 +182,12 @@
                         </select>
 
                         <label for="questions">Inquiry</label> 
-                        <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                        <textarea id="questions" name="questions" rows="10" cols="70"></textarea>
                     </fieldset>
 
                     
                 </form>
-                <input type="submit" id="submit" value="submit"  class="btn">
+                <input type="submit" id="submit" value="Submit"  class="btn">
                     
             </div>
 
