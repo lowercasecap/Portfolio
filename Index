@@ -14,7 +14,8 @@
     <link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    
+    <script src="main.js"></script>
+    <form class="form-grid" method="post" action="process_form.php"></form>
 
 </head>
 
@@ -27,8 +28,8 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#other">Other</a></li>
             <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#research">Research</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#about">About</a></li>
         </ul>
     </nav>
@@ -38,170 +39,169 @@
     <!-- HTML !-->
     <main>
         <div id="mugshot"><img src="images/Me.jpg"></a></div>
-        <a id="about">
-            <p>About</p>
-        </a>
-        <section>
-            <h2>Hi, my name is Ryan, and I am a Software Engineer. This is my portfolio which showcase my eduaction, projects, and skills.</h2>
-            <h2>I currently am working on Augmented and Mixed reality apllications in my free time.</h2>
-            <h2>I also enjoy competitive programming and doing Leetcode style prolems.</h2>
-            <h2>If you would like reach out to me please you contact form bellow!</h2>
-        </section>
+                <a id="about">
+                    <p>About Me</p>
+                </a>
+                <form class="about-grid">
+                    <section id="overview">
+                        <h3>Welcome to my portfolio!</h3>
+                        <h3>I created this site to be one page so you dont need to need to go down a rabit hole of webpages to find what you are looking for.
+                            If you would like to contact me about colabertion, tips for site, or anything else you can think of, use the form bellow!</h3>
+                        <br>
+                        <h3>Currently I enjoy building projects related to AR (Augmented reality), MR (Mixed reality), and Computer Vision.</h3>
+                        <h3>For my AR and MR projects I use Unity Software and C#.</h3>
+                        <h3>For my Computer Vission projects I used a $60 Raspberrypi and an $18 cammera, along with Python Programming language.</h3>
+                        
+                    </section>
+                    
+                    <section id="stack">
+                        <h3>The Stack</h3>
+                        <h2>Here's the languages I've used in my projects and other programming ventures</h2>
+                        <img src="https://skillicons.dev/icons?i=python,java,cs,cpp,php,css,html&perline=3">
+                        <h1>Python, Java, CSS, C++, PHP, CSS, HTML</h1>
+                        <h3>Tool Chain</h3>
+                        <h2>Here's the software I've used in my projects and school</h2>
+                        <img src="https://skillicons.dev/icons?i=bootstrap,eclipse,git,github,idea,maven,powershell,raspberrypi,unity,vscode,visualstudio,mysql&perline=4">
+                        <h1>Bootstrap, Eclipse, Git, Github, Idea, Maven, Powershell, Raspberrypi, Unity, VScode, VisualStudio, Mysql</h1>
 
-
-        
-
-        
-        <a id="projects">
-            <p>Projects</p>
-        </a>
-        <section id="projects">
-            <section id="project1">
-                <h3>Fantasy football</h3>
-                <a href="https://github.com/lowercasecap/FantasyFootball"><img src="images/fantasy.jpg"  class="round"></a>
-                <h3>This application adds more depth into your fantasy selections.</h3>
-                <h3>To view and use this application click on the picture above.</h3>
-                
-                
-            </section>
-            <section id="project2">
-                <h3>AR Resume</h3>
-                <a href="https://github.com/lowercasecap/Vacation-Finder"><img src="images\ArResume.png"  class="round"></a>
-                <h3>This project uses Agmented reality principles to display my resume.</h3>
-                <h3>To view and use this application click on the picture above.</h3>
-    
-            </section>
-            <section id="project3">
-                <h3>Vaction Finder</h3>
-                <a href="https://github.com/lowercasecap/FantasyFootball"><img src="images\Pending Review.jpg"  class="round"></a>
-                <h3>This apllication scrapes web applications to find deals on vacations.</h3>
-                <h3>To view and use this application click on the picture above.</h3>
-            </section>
-        </section>
-
-        <a id="research">
-            <p>Research</p>
-        </a>
-        <section id="research">
-            <form class="form-grid">
-                <fieldset>
-                    <h3>Before my dive into Software Development I was a Senior Biochemistry student who was involved in multiple research endevors.</h3>
-                    <h3>This research involved Biochemistry and Organic chemistry research.</h3>
-                    <h3>Most notably I created a an inorganic compound which was used clinical trials in one of the nations leading medical research facilities.</h3>
-                    <h3>Furthurmore research into epidermal bacterial phages Propionibacterium was done. In which me and my team found a new subset of phages that could potentially used for skin treatments.</h3>
-                    <h3>If you would like research collabertion in Biochemistry, Organic Chemistry, or Computer Science Topics feel free to contact me bellow.</h3>
-
-                </fieldset>
-            </form>
-            
-        </section>
-
-
-        <a id="education">
-            <p>Education</p>
-        </a>
-        <h3>I am currently enrolled in two online universities completing both a Associates and Bachelors in Software Engineering and Computer Science respectivly.</h3>
-        <section>
-            <form class="form-grid">
-                
-                <fieldset>
-                    <legend>Dakota state University</legend>
-                    <h3>Computer Science - Software Engineering: May 2023 - May 2025 (BS) </h3>
-
-                </fieldset>
-                <fieldset>
-                    <legend>North Dakota State College of science</legend>
-                    <h3>Software Engineering: August 2022 - May 2024(AAS)(Honors)</h3>
-                    <h3>Paramedic Technology: August 2016 - September 2017 (Cert)(Honors)</h3>
-                </fieldset>
-            </form>
-        
-        </section>
-
-        
-
-        
-        
-        <br>
-        <a id="other">
-            <p>Other</p>
-            <h4>Here is a list of some of my personal and academic acheivements.</h4>
-        </a>
-        <section>
-            <form class="form-grid">
-                <fieldset>
-                    <legend>Volunteer</legend>
-                    <h2>During the COVID 19 pandemic I volunteered at a rural ambulance service 20 minutes outside of Fargo, ND.</h2>
-                    <h2>During that 1 1/2 years I volunteered over 4800 +hours as a Paramedic.</h2>
-                    <h2>I still volunteer at Casselton ambulance and am currently volunteering fulltime.</h2>
-                </fieldset>
-                <fieldset>
-                    <legend>Academic</legend>
-                    <h2>I am currently a member of the Phi Theta Kappa International Honor Society.</h2>
-                    <h2>In 2017 I graduated with a certificate in paramedicine with honors.</h2>
-                    <h2>I currently hold a 4.0 for my assocaiates in Software Engineering and a 3.76 overall GPA.</h2>
-                </fieldset>
-            </form>
-            
-
-        </section>
-        <a id="contact">
-            <p>Contact</p>
-        </a>
-        <section>
-            <div id="form">
-                <h2>Complete the form below to contact me about collaberation</h2>
-    
-                <form class="form-grid" method="post" action="mailto:ryan.werness@gmail.com" ><!--Start form-->
-    
-                    <fieldset>
-                        <legend>Form information:</legend>
-                        <label for="fName">*First Name:</label>
-                        <input type="text" id="fName" required>
-    
-                        <label for="lName">*Last Name:</label>
-                        <input type="text" id="lName" required>
-    
-                        <label for="email">*Email:</label>
-                        <input type="text" name="email" id="email" required>
-    
-                        <label for="phone">*Phone:</label>
-                        <input type="tel" name="phone" id="phone" required>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Referal Source</legend>
-
-                        <label for="reference">How did you find me?</label>
-
-                        <select name="reference" id="reference">
-                            <option value="ad">LinkedIn</option>
-                            <option value="friend">Referal</option>
-                            <option value="google">Google</option>
-                            <option value="social">Social Media</option>
-                            <option value="other">Other</option>
-                        </select>
-
-                        <label for="questions">Inquiry</label> 
-                        <textarea id="questions" name="questions" rows="10" cols="70"></textarea>
-                    </fieldset>
-
+                    </section>
                     
                 </form>
-                <input type="submit" id="submit" value="Submit"  class="btn">
+
+
+                
+
+                
+                <a id="projects">
+                    <p>My Projects</p>
+                </a>
+                <section id="projects">
+                    <section id="project1">
+                        <h3>Fantasy football</h3>
+                        <a href="https://github.com/lowercasecap/FantasyFootball"><img src="images/fantasy.jpg"  class="round"></a>
+                        <span class="project-skill">
+                            <img src="https://skillicons.dev/icons?i=html,css,php,mysql&perline=10">
+                            <h1>HTML &nbsp; CSS &nbsp; PHP &nbsp; MySQL</h1>
+                        </span>
+                        <h3>This application adds more depth into your fantasy selections.</h3>
+                        
+                        
+                    </section>
+                    <section id="project2">
+                        <h3>AR Resume</h3>
+                        <a href="https://github.com/lowercasecap/ArResume"><img src="images\ArResume.png"  class="round"></a>
+                        <span class="project-skill">
+                            <img src="https://skillicons.dev/icons?i=unity,cs,git&perline=10">
+                            <h1>Unity &ensp; &nbsp; C# &ensp; &ensp; Git</h1>
+                        </span>
+                        <h3>This project uses Agmented reality principles to display my resume.</h3>
+                        
+            
+                    </section>
+                    <section id="project3">
+                        <h3>Vaction Finder</h3>
+                        <a href="https://github.com/lowercasecap/Vacation-Finder"><img src="images\Pending Review.jpg"  class="round"></a>
+                        <span class="project-skill">
+                            <img src="https://skillicons.dev/icons?i=python&perline=10">
+                            <h1>Python</h1>
+                        </span>
+                        <h3>This apllication scrapes web applications to find deals on vacations.</h3>
+                    </section>
+                </section>
+
+                <a id="research">
+                    <p>Research</p>
+                </a>
+                <section id="research">
+                    <form class="form-grid">
+                        <fieldset>
+                            <h3>Before my dive into Software Development I was a Senior Biochemistry student who was involved in multiple research endevors.</h3>
+                            <h3>This research involved Biochemistry and Organic chemistry research.</h3>
+                            <h3>Most notably I created a an inorganic compound which was used clinical trials in one of the nations leading medical research facilities.</h3>
+                            <h3>Furthurmore research into epidermal bacterial phages Propionibacterium was done. In which me and my team found a new subset of phages that could potentially used for skin treatments.</h3>
+                            <h3>If you would like research collabertion in Biochemistry, Organic Chemistry, or Computer Science Topics feel free to contact me bellow.</h3>
+
+                        </fieldset>
+                    </form>
                     
-            </div>
+                </section>
 
-        </section>
-       
 
-    </main>
-</body>
-<footer>
-    <ul>
-        <li><a href="https://github.com/lowercasecap" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/ryan-werness-7438b618b/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
-    </ul>
+                <a id="education">
+                    <p>My Education</p>
+                </a>
+                <h3>I am currently enrolled in two online universities completing both a Associates and Bachelors in Software Engineering and Computer Science respectivly.</h3>
+                <section>
+                    <form class="form-grid">
+                        
+                        <fieldset>
+                            <legend>Dakota state University</legend>
+                            <h3>Computer Science - Software Engineering: May 2023 - May 2025 (BS) </h3>
+
+                        </fieldset>
+                        <fieldset>
+                            <legend>North Dakota State College of science</legend>
+                            <h3>Software Engineering: August 2022 - May 2024(AAS)(Honors)</h3>
+                            <h3>Paramedic Technology: August 2016 - September 2017 (Cert)(Honors)</h3>
+                        </fieldset>
+                    </form>
+                
+                </section>
+
+
+
+                
+
+                
+                
+                <br>
+                <a id="other">
+                    <p>Other</p>
+                    <h4>Here is a list of some of my personal and academic acheivements.</h4>
+                </a>
+                <section>
+                    <form class="form-grid">
+                        <fieldset>
+                            <legend>Volunteer</legend>
+                            <h2>During the COVID 19 pandemic I volunteered at a rural ambulance service 20 minutes outside of Fargo, ND.</h2>
+                            <h2>During that 1 1/2 years I volunteered over 4800 +hours as a Paramedic.</h2>
+                            <h2>I still volunteer at Casselton ambulance and am currently volunteering fulltime.</h2>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Academic</legend>
+                            <h2>I am currently a member of the Phi Theta Kappa International Honor Society.</h2>
+                            <h2>In 2017 I graduated with a certificate in paramedicine with honors.</h2>
+                            <h2>I currently hold a 4.0 for my assocaiates in Software Engineering and a 3.76 overall GPA.</h2>
+                        </fieldset>
+                    </form>
+                    
+
+                </section>
+                <a id="contact">
+                    <p>Contact</p>
+                </a>
+                <section>
+                    <div id="form">
+                        <h2>Complete the form below to contact me about collaberation</h2>
+            
+                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzE0aaVJ0EhTNz_qV1z8G7SB463bH3_WNIgsC4Xa373tNFSw/viewform?embedded=true" width="640" height="820" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                            
+                            
+                    </div>
+
+                </section>
+            
+
+            </main>
+        </body>
+        <footer>
+            <ul>
+                <li><a href="https://github.com/lowercasecap" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ryan-werness-7438b618b/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a></li>
+                <li>© 2024 ryan.werness@gmail.com</li>
+            </ul>
+                
+            
+        </footer>
         
-    
-</footer>
 </html>
