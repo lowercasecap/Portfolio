@@ -1,6 +1,6 @@
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=lowercasecap&count_private=true&theme=tokyonight&showicons=true)]()
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=lowercasecap&langs_count=3&theme=tokyonight)]()
-[![Leetcode Rankings](https://leetcode.lowercasecap/leetcode?site=cn)
+![Leetcode Rankings](https://leetcard.lowercasecap.cool/lapor?ext=heatmap)
 
 # Ryan's Portfolio
 
